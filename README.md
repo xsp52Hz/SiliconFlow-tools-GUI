@@ -128,7 +128,7 @@ python siliconflow_suite_gui.py
 
 ## 注意事项与已知问题
 
-*   **API Key:** **极其重要！** 请务必使用您自己的有效 SiliconFlow API Key 替换掉程序中预设的示例 Key (`sk-leirgmdwwghisduaqjbuxbetxcnpdypnpxpnpycozszugwnh`)。**没有有效的 Key，程序无法连接 SiliconFlow 服务。**
+*   **API Key:** **极其重要！** 请务必使用您自己的有效 SiliconFlow API Key 替换掉程序中预设的示例 Key (`sk-leirgmdw`)。**没有有效的 Key，程序无法连接 SiliconFlow 服务。**
 *   **模型可用性:** 模型检测器依赖于 SiliconFlow `/v1/models` API 的返回结果，并且模型分类基于关键字匹配，可能不完全准确或包含非目标类型的模型。请以 SiliconFlow 官方文档为准。
 *   **TTS 音色:** “更新其他选项卡列表”功能无法自动更新 TTS 模型的音色列表。如果通过检测器添加了新的 TTS 模型，您可能需要在代码中手动补充其支持的音色信息到 `INITIAL_TTS_MODELS` 字典。
 *   **模型标识符:** 您在界面上看到的模型名称（尤其是一些带有 `Pro/` 或 `LoRA/` 前缀的）可能与 SiliconFlow API 实际接受的 `model` 参数值略有不同。如果遇到模型相关的错误，请检查并使用正确的模型 ID。
