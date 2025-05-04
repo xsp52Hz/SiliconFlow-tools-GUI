@@ -1,0 +1,18 @@
+# PyInstaller build artifacts
+/dist/
+/build/
+*.spec
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment specific files (if any)
+.env
+*.env
+
+# IDE specific files (optional)
+.vscode/
+.idea/
