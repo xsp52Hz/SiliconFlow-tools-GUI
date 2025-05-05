@@ -28,7 +28,7 @@ IMAGE_SIZES = [
     "1024x1024", "512x512", "1024x768", "768x1024", "1024x576", "576x1024",
 ]
 DEFAULT_SIZE = "1024x1024"
-DEFAULT_API_KEY = "sk-leirgmdwwghisduaqjbuxbetx" # 添加默认 API Key
+DEFAULT_API_KEY = "sk-leirgmdwwghisduaqjb" # 添加默认 API Key
 
 # --- 主应用类 ---
 class SiliconFlowImageGenApp(tk.Tk):

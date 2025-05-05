@@ -6,7 +6,7 @@ import json
 
 # --- API 配置 ---
 MODELS_API_URL = "https://api.siliconflow.cn/v1/models"
-DEFAULT_API_KEY = "sk-leirgmdwwghisduaqjbuxbetxcnpdypn" # 默认 API Key
+DEFAULT_API_KEY = "sk-leirgmdwwghisduaqjbu" # 默认 API Key
 
 # --- 主应用类 ---
 class SiliconFlowModelCheckerApp(tk.Tk):

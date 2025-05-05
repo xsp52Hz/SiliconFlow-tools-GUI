@@ -19,7 +19,7 @@ DEFAULT_MODEL = "FunAudioLLM/CosyVoice2-0.5B"
 DEFAULT_VOICE = "alex"
 OUTPUT_FORMATS = ["mp3", "wav", "opus", "pcm"] #
 DEFAULT_FORMAT = "mp3"
-DEFAULT_API_KEY = "sk-leirgmdwwghisduaqjbuxbetx" # 添加默认 API Key
+DEFAULT_API_KEY = "sk-leirgmdwwghis" # 添加默认 API Key
 
 # --- 主应用类 ---
 class SiliconFlowTTSApp(tk.Tk):
