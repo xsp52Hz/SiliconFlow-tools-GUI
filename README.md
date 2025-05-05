@@ -139,6 +139,7 @@ python siliconflow_suite_gui.py
 6.  **点击 "发送" 按钮或按 Enter 键。**
 7.  AI 的回复会以流式方式显示在 "聊天记录" 区域。
 8.  **清空记录:** 点击 "清空记录" 按钮可以清除聊天记录、System Prompt 和已选图片。
+![文本聊天界面演示](images/文本聊天.png)
 
 ### 模型检测器
 
